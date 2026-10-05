@@ -3,3 +3,4 @@ import Desargues.Plane
 import Desargues.Main
 
 import Desargues.Examples
+import Desargues.Bridge

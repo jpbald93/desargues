@@ -19,7 +19,7 @@ export PATH="$HOME/.elan/bin:$PATH"
 cd "$(dirname "$0")" || exit 1
 NS="Desargues"
 LIB="Desargues"
-REQUIRED="Desargues.br Desargues.br_eq_det Desargues.br_eq_zero_of_dotProduct_eq_zero Desargues.br_eq_zero_of_isCollinear_mk Desargues.desargues_converse_det Desargues.desargues_converse_mk Desargues.desargues_det Desargues.desargues_det_identity Desargues.desargues_mk Desargues.ex_P_eq Desargues.ex_Q_eq Desargues.ex_R_eq Desargues.ex_desargues Desargues.ex_desargues_compute Desargues.ex_nonvacuous Desargues.ex_perspective Desargues.ex_points_ne_zero Desargues.exists_dotProduct_eq_zero_of_br_eq_zero Desargues.isCollinear_mk_of_br_eq_zero"
+REQUIRED="Desargues.br Desargues.br_eq_det Desargues.br_eq_zero_of_dotProduct_eq_zero Desargues.br_eq_zero_of_isCollinear_mk Desargues.desargues_converse_det Desargues.desargues_converse_mk Desargues.desargues_det Desargues.desargues_det_identity Desargues.desargues_mk Desargues.exA'_isCollinear Desargues.exB'_isCollinear Desargues.exC'_isCollinear Desargues.exO_eq_cross Desargues.ex_P_eq Desargues.ex_Q_eq Desargues.ex_R_eq Desargues.ex_desargues Desargues.ex_desargues_compute Desargues.ex_nonvacuous Desargues.ex_perspective Desargues.ex_points_ne_zero Desargues.ex_vertices_ne_zero Desargues.exists_dotProduct_eq_zero_of_br_eq_zero Desargues.isCollinear_mk_of_br_eq_zero"
 SOURCES="Desargues/*.lean Desargues.lean"
 # Never fetch: the pinned Mathlib checkout must already be present.
 [ -e .lake/packages/mathlib ] || { echo "FAIL: Mathlib packages missing (run setup by hand)"; exit 1; }

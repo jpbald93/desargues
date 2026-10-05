@@ -12,7 +12,7 @@ converse, by a coordinate (bracket) certificate.
 The algebraic core is the identity `[PQR] = [abc]·[a'b'c']·[aa' bb' cc']` for the bracket
 `[u v w] = u ⬝ᵥ v ⨯₃ w`, valid over every commutative ring and closed by `ring`.
 
-**Status:** all statements proved, with no `sorry`. `gate.sh` checks 19 named declarations.
+**Status:** all statements proved, with no `sorry`. `gate.sh` checks 24 named declarations.
 
 ## Main statements
 
@@ -40,7 +40,7 @@ The gate fails if any of the following is true:
 - a named declaration is missing, or has an extra report;
 - a named declaration depends on anything other than `propext`, `Classical.choice` and `Quot.sound`.
 
-Output: `PASS (19 declarations, standard axioms only)`. Some of these are definitions, which may
+Output: `PASS (24 declarations, standard axioms only)`. Some of these are definitions, which may
 use a subset of the three axioms.
 
 `tests/tamper.sh` plants six kinds of fake proof in scratch copies (in `Desargues/Examples.lean`) and checks
